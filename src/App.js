@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-import { Button } from "@mantine/core"
+import { Button, Group } from "@mantine/core"
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -42,7 +42,13 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <LambdaDemo />
-          <Button>Anthony</Button>
+          <Group>
+            <Button>Anthony</Button>
+          <Button>Marianny</Button>
+            <Button>Luna</Button>
+
+          </Group>
+
         </header>
       </div>
     )
